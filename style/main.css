@@ -1,0 +1,139 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+ 
+/* base  */
+body{
+    background-color: var(--preto);
+    font-family: 'Helvetica', Times, serif;
+    color: #fff;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header .container{
+ display: flex;    /*  Alinhar     */
+ flex-direction: row;
+ align-items: center; 
+ justify-content: space-between; 
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+header nav a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+color: var(--vermelho)
+}
+
+/*  filme  */
+.filme-principal{
+    font-size: 1.2em;
+    background:linear-gradient(to right,#181818 15%,rgba(23,23,23,.98)
+    20%, rgba(23,23,23,.45) 40%,rgba(23,23,23,.27) 60%,rgba(23,23,23,.15)
+    85%,rgba(23,23,23,.08) 90%,rgba(23,23,23,.03) 95%,rgba(23,23,23,0) 100%) 
+
+    ,url('/img/capa-1.jpg');
+   
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-shadow: rgb(59, 58, 58) 2px 0 3px;
+}
+
+.titulo{
+    margin-right: 40%;
+    margin-top: 110px;
+    font-size: 2em;
+    font-family: 'TiemposHeadlineWeb-Bold',Georgia,serif;
+    text-shadow: #000 2px 0 5px;
+}
+
+.botao1{
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 20px   rgba(207, 12, 12, 0.2);
+}
+
+
+.botao2{
+    background-color: var(--preto);
+    border: 1px solid white;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 20px   rgba(19, 15, 15, 0.6);
+}
+
+
+.botao1{
+    margin-right:  8px;
+}
+
+.botao2{
+    margin-right:  8px;
+}
+
+
+.container{
+    margin: 40px;
+}
+
+.bg{
+    width: 70%;
+    height: 650px;
+    
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
